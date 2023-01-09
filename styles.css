@@ -1,0 +1,14 @@
+body {
+    background-color: #000000;
+    padding: 1em;
+    margin:2em;
+    border-radius: 2em;
+    text-align: center;
+
+}
+input {
+    border-radius: 1em;
+    padding: 1em;
+    margin: 0.2em;
+    text-align: center;
+}
