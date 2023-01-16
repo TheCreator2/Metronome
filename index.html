@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>metronome<</title>>
+    <title>Metronome</title>
+    <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
-
-    <input type="button" value="-">
-    <input value="60">
-
+    <h1>Metronome</h1>
+    <div id="metronome">
+        <input class="bpm-change" type="button" value="-" id="btnDecreaseBPM">
+        <input value="60" id="txtBPM">
+        <input class="bpm-change" type="button" value="+" id="btnIncreaseBPM">
+        <div>
+            <input type="button" value="start" id="btnStartStop">
+        </div>
+        <! <img id="logo" src="https://cdn.britannica.com/25/78225-050-1781F6B7/broccoli-florets.jpg" /> >
+    </div>
+    Source code: <a href="https://github.com/pddring/Metronome">view on GitHub</a>
+    <p>Published under a creative commons licence</p>
+    <script src="lib.js"></script>
 </body>
 </html>
